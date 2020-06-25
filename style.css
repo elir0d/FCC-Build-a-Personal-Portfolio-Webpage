@@ -1,0 +1,32 @@
+:root{
+    /* Primary palette */
+    --grey:#eeeeee;
+    --green:#32e0c4;
+    --primary-black:#222831;
+    --secondary-black:#393e46;
+
+    /*Secondary palette  */
+    --black:#1b262c;
+    --primary-blue:#0f4c75;
+    --secondary-blue:#3282b8;
+    --tertiary-blue:#bbe1fa;
+}
+
+html, body{
+    /*--------- image on full page--------------------------------- */
+    background-image: url(/images/kyle-sung-oQuP_XBjOMY-unsplash.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+
+    /*-----------Fonts and scroll---------------------------------- */
+}
+
+
+
