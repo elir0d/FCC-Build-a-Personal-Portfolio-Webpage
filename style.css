@@ -26,6 +26,35 @@ html, body{
     margin: 0;
 
     /*-----------Fonts and scroll---------------------------------- */
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+    scrollbar-color: var(--green);
+    scrollbar-track-color: var(--primary-black);
+    scrollbar-width: thin;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color:#1f1b1bcb;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 90px;
+    height: 60px;
+    margin: 0 none;
+}
+li, a{
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 10px;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--grey);
 }
 
 
