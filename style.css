@@ -36,6 +36,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/*--------------- Navigation bar-------------- */
 #header{
     display: flex;
     justify-content: space-around;
@@ -69,9 +70,11 @@ a:hover{
     border: 2px solid var(--primary-black);
     font-size: 1rem;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 6px;
     cursor: pointer;
     transition: 0.2s ease;
+    text-transform: uppercase;
+
 }
 
 .button-nav:hover{
@@ -80,11 +83,13 @@ a:hover{
     border: none;
     font-size: 1rem;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 6px;
     cursor: pointer;
+    text-transform: uppercase;
     border: 2px solid var(--green);
 }
 
+/*-------------- Welcome section----------- */
 #welcome-section{
     display: flex;
     align-items: center;
@@ -103,41 +108,46 @@ a:hover{
 }
 
 .welcome h1{
-    margin-top: 20px;
+    margin: 20px 0;
     color: var(--green);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .welcome p{
-    margin: 20px 0;
+    margin: 30px auto 10px 2px;
 }
 
 .welcome h3{
-    font-size: 1.5rem;
+    color: var(--green);
+    -webkit-text-stroke: 1px black; 
+    font-size: 2rem;
 }
 
 .btn-content{
     margin: 10px 0 20px;
     width: 100%;
     background-color: var(--green);
-    border: 2px solid transparent;
+    border: 2px solid var(--green);
     font-size: 2rem;
+    font-weight: bolder;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 6px;
     cursor: pointer;
     transition: 0.2s ease;
 }
 
 .btn-content:hover{
-    margin: 10px 0;
+    margin: 10px 0 20px;
     width: 100%;
     background-color: var(--primary-black);
     color: var(--green);
     border: none;
     font-size: 2rem;
+    font-weight: bolder;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 6px;
     cursor: pointer;
-    border: 2px solid transparent;
+    border: 2px solid var(--green);
 }
+/* -----------About me section------------ */
 
