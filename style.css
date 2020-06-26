@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 :root{
     /* Primary palette */
     --grey:#eeeeee;
@@ -31,6 +33,7 @@ html, body{
     scrollbar-color: var(--green);
     scrollbar-track-color: var(--primary-black);
     scrollbar-width: thin;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #header{
@@ -39,6 +42,7 @@ html, body{
     align-items: center;
     padding: 10px;
     background-color:#1f1b1bcb;
+    text-transform: uppercase;
     position: sticky;
     top: 0;
 }
@@ -49,13 +53,40 @@ html, body{
 }
 li, a{
     display: inline-block;
-    font-size: 1.3rem;
     margin: 0 10px;
     list-style-type: none;
     text-decoration: none;
-    text-transform: capitalize;
     color: var(--grey);
 }
 
+a:hover{
+    color: var(--green);
+}
+
+
+button{
+    background-color: var(--green);
+    border: 2px solid var(--primary-black);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover{
+    background-color: var(--primary-black);
+    color: var(--green);
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid var(--green);
+}
+
+p{
+    color: white;
+}
 
 
