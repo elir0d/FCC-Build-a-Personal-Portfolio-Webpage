@@ -98,7 +98,7 @@ a:hover{
     border: 5px solid red;
 }
 
-.welcome{
+#welcome-section div{
     margin: 0 auto 0 10%;
     line-height: 1.5rem;
     max-width: 550px;
@@ -107,17 +107,17 @@ a:hover{
     text-shadow: 2px 2px black;
 }
 
-.welcome h1{
+#welcome-section h1{
     margin: 20px 0;
     color: var(--green);
     font-size: 4rem;
 }
 
-.welcome p{
+#welcome-section p{
     margin: 30px auto 10px 2px;
 }
 
-.welcome h3{
+#welcome-section h3{
     color: var(--green);
     -webkit-text-stroke: 1px black; 
     font-size: 2rem;
