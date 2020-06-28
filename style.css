@@ -299,6 +299,7 @@ textarea{
 }
 
 #submit:active{
+    font-size: 1.17rem;
     color: var(--green);
     opacity: 97%;
     background-color: var(--grey);
