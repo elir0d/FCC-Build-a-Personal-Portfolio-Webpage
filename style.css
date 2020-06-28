@@ -78,6 +78,7 @@ html, body{
 }
 
 .nav-list li{
+    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -266,8 +267,8 @@ margin: 0;
     align-items: center;
     width: 100%;
     height: 77vh;
-    border-top: solid var(--green);
-    border-bottom: solid var(--green);
+    border-top: 3px solid var(--green);
+    border-bottom: 3px solid var(--green);
     background-color: var(--grey);
 }
 
