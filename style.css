@@ -249,7 +249,7 @@ a:hover{
     height: 79vh;
 
     background-color: var(--grey);
-    opacity: 97%;
+    opacity: 99%;
 }
 
 .form-container{
@@ -266,6 +266,7 @@ a:hover{
 }
 
 #name, #email, textarea, #submit{
+    outline: none;
     border: none;
     border-radius: 5px;
     margin: 0;
@@ -275,8 +276,9 @@ a:hover{
 
     background-color: var(--grey);
     box-shadow: inset 5px 5px 5px #cacaca, 
-    inset -5px -5px 5px #ffffff;
-    opacity: 97%;
+                inset -5px -5px 5px #ffffff;
+    
+     opacity: 97%;
 }
 
 textarea{
@@ -286,17 +288,25 @@ textarea{
 }
 
 #submit{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: var(--green);
     border: none;
     cursor: pointer;
-    
-    background: linear-gradient(145deg, #37f1d2, #2ecbb0);
-box-shadow:  5px 5px 0px #2bbfa7, 
-             -5px -5px 0px #3bffe1;
+
+    box-shadow:-5px -5px 7px #dbdbdb, 
+                5px 5px 7px #ffffff;
 }
 
-#submit:hover{
+#submit:active{
+    color: var(--green);
+    opacity: 97%;
+    background-color: var(--grey);
 
+    box-shadow: inset 5px 5px 5px #cacaca, 
+                inset -5px -5px 5px #ffffff;
 }
+
 
 hr{
     position: absolute;
