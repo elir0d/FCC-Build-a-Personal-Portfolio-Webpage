@@ -83,10 +83,6 @@ li, a{
     color: var(--grey);
 }
 
-a:hover{
-    color: var(--green);
-}
-
 
 .button-nav{
     background-color: var(--green);
@@ -145,6 +141,15 @@ a:hover{
     font-size: 2rem;
 }
 
+button a{
+    color: var(--primary-black);
+}
+
+button a:hover{
+    color: var(--grey);
+}
+
+
 .btn-content{
     margin: 10px 0 20px;
     width: 100%;
@@ -162,7 +167,6 @@ a:hover{
     margin: 10px 0 20px;
     width: 100%;
     background-color: #1f1b1ba1;
-    color: var(--green);
     border: none;
     font-size: 2rem;
     font-weight: bolder;
