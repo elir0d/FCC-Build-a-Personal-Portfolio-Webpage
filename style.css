@@ -141,15 +141,6 @@ li, a{
     font-size: 2rem;
 }
 
-button a{
-    color: var(--primary-black);
-}
-
-button a:hover{
-    color: var(--grey);
-}
-
-
 .btn-content{
     margin: 10px 0 20px;
     width: 100%;
@@ -168,6 +159,7 @@ button a:hover{
     width: 100%;
     background-color: #1f1b1ba1;
     border: none;
+    color: var(--grey);
     font-size: 2rem;
     font-weight: bolder;
     padding: 1rem;
@@ -195,7 +187,6 @@ button a:hover{
     font-size: 1.5rem;
     color: white;
     font-size: 1.5rem;
-    text-shadow: 2px 2px black;
     margin: 20px;
 }
 
@@ -207,9 +198,15 @@ button a:hover{
 }
 
 #about-me h1{
+    color: var(--primary-black);
     line-height: 2.5rem;
     font-size: 2.5rem;
     margin-bottom: 20px;
+}
+
+#about-me p{
+    color: var(--primary-black);
+    line-height: 1.7rem;
 }
 
 #about-me div:nth-of-type(1){
@@ -218,7 +215,10 @@ button a:hover{
 }
 
 #about-me img{
+    padding: 5px;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px #2ab9a1, 
+ -5px -5px 10px #3cffe7;
 }
 /*------------ Projects section------------ */
 #projects{
@@ -298,8 +298,9 @@ textarea{
     border: none;
     cursor: pointer;
 
-    box-shadow:-5px -5px 7px #dbdbdb, 
-                5px 5px 7px #ffffff;
+    background: #eeeeee;
+    box-shadow: 4px 4px 8px #c8c8c8, 
+                -4px -4px 8px #ffffff;
 }
 
 #submit:active{
