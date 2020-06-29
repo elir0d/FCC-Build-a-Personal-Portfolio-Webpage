@@ -432,7 +432,7 @@ footer{
 }
 
 
-@media (max-width: 528px){
+@media (max-width: 530px){
     #header{
         height:60px;
     }
@@ -440,7 +440,7 @@ footer{
     .logo{
         display: none;
     }
-    
+
     .nav-list li{
         padding: 0 8px;
     }
