@@ -420,9 +420,8 @@ textarea::-webkit-scrollbar-track{
 }
 
 footer{
-    display: block;
-    position: relative;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -430,6 +429,12 @@ footer{
     background-color:#1f1b1bea;
 }
 
+.credits a, .credits p{
+    text-align: center;
+    line-height: 1rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
 
 @media (max-width: 530px){
     #header{
