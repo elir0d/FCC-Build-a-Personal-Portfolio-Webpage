@@ -73,6 +73,7 @@ html, body{
 }
 
 #navbar{
+    margin: 0;
     position: sticky;
     top: 0;
 }
@@ -81,12 +82,16 @@ html, body{
     margin: 0;
     width: 90px;
     height: 60px;
-    margin: 0 none;
 }
 
 .nav-list li{
-    margin: 0 auto;
+    margin: 0;
     padding: 0 15px;
+}
+
+.nav-list{
+    margin: 0;
+    padding: 0;
 }
 
 li, a{
