@@ -37,7 +37,7 @@
 
 html, body{
     /*--------- image on full page--------------------------------- */
-    background: url(images/kyle-sung-oQuP_XBjOMY-unsplash.jpg); 
+    background: url(./images/kyle-sung-oQuP_XBjOMY-unsplash.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
