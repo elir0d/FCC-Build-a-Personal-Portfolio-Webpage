@@ -72,12 +72,6 @@ html, body{
     z-index: 1;
 }
 
-#navbar{
-    margin: 0;
-    position: sticky;
-    top: 0;
-}
-
 .logo{
     margin: 0;
     width: 90px;
