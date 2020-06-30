@@ -238,7 +238,7 @@ li, a:hover{
     padding: 5px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px #2ab9a1, 
- -5px -5px 10px #3cffe7;
+                -5px -5px 10px #3cffe7;
 }
 /*------------ Projects section------------ */
 #projects{
@@ -257,12 +257,11 @@ li, a:hover{
     background-attachment: fixed;
 }
 
-.cards{
+.project-tile{
     display: grid;
     border-radius: 6px;
     max-width: 450px;
     max-height: 100%;
-    padding-top: 15px;
 
     margin: 10px;
     background-color: #393e46;
@@ -273,8 +272,8 @@ li, a:hover{
     height: auto;
     max-width: 100%;
     background-size: cover;
-    border-top: 2px solid var(--green);
-    border-bottom: 2px solid var(--green);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .card-content{
