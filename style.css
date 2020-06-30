@@ -50,7 +50,7 @@ html, body{
 
     /*-----------Fonts and scroll---------------------------------- */
     scroll-behavior: smooth;
-    scroll-padding-top: 69px;
+    scroll-padding-top: 75px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -212,7 +212,7 @@ li, a:hover{
     font-size: 1.5rem;
     color: white;
     font-size: 1.5rem;
-    margin: 10px 10px 50px;
+    margin: 25px 10px 30px;
 }
 
 #about-me div:first-child{
@@ -224,23 +224,23 @@ li, a:hover{
 
 #about-me h1{
     color: var(--primary-black);
-    line-height: 2.5rem;
+    line-height: 2rem;
     font-size: 2.5rem;
-    margin-bottom: 20px;
 }
 
 #about-me p{
+    margin: 10;
     color: var(--primary-black);
-    line-height: 1.7rem;
+    line-height: 1.5rem;
 }
 
 #about-me div:nth-of-type(1){
-    padding: 50px;
+    padding: 20px;
     background-color: #33e1c4d2;
 }
 
 #about-me img{
-    padding: 5px;
+    padding: 6px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px #2ab9a1, 
                 -5px -5px 10px #3cffe7;
