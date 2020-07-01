@@ -475,7 +475,8 @@ span{
     }
 
     .nav-list li{
-        font-size: 0.95rem;
+        margin: 0;
+        font-size: 0.9rem;
         padding: 0 4px;
     }
 
@@ -484,6 +485,11 @@ span{
         font-size: 0.8rem;
     }
 
+    .button-nav:hover{
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+    
     #name, #email, #submit{
         width: 350px;
         margin: 0 auto;
