@@ -381,6 +381,7 @@ svg{
 }
 
 textarea{
+    margin: 0 auto;
     font-size: 1rem;
     line-height: 1.1rem;
     text-align: start;
@@ -474,9 +475,24 @@ span{
     }
 
     .nav-list li{
-        padding: 0 8px;
+        padding: 0 5px;
     }
 
+    .button-nav{
+        font-size: 0.8rem;
+    }
+
+    #name, #email, #submit{
+        width: 350px;
+        margin: 0 auto;
+        min-width: 342px;
+    }
+    
+    textarea{
+        margin: o auto;
+        min-width: 342px;
+        max-width: 342px;
+    }
     footer{
         display: flex;
         flex-direction: column;
