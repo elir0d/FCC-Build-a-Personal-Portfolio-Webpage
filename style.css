@@ -122,14 +122,13 @@ li, a:hover{
 .button-nav:hover{
     margin: 0;
     background-color: #1f1b1bea;
+    border: 2px solid var(--green);
     color: var(--green);
-    border: none;
     font-size: 1rem;
     padding: 0.7rem;
     border-radius: 6px;
     cursor: pointer;
     text-transform: uppercase;
-    border: 2px solid var(--green);
 }
 
 /*-------------- Welcome section----------- */
@@ -477,19 +476,27 @@ span{
     .nav-list li{
         margin: 0;
         font-size: 0.9rem;
-        padding: 0 4px;
+        padding: 0 3px;
+    }
+
+    .nav-list a{
+        margin: 0;
+        font-size: 0.9rem;
+        padding: 0;
     }
 
     .button-nav{
-        padding: 0.4rem;
+        margin: 0;
+        padding: 0.5rem;
         font-size: 0.8rem;
     }
 
     .button-nav:hover{
-        padding: 0.4rem;
+        margin: 0;
+        padding: 0.5rem;
         font-size: 0.8rem;
     }
-    
+
     #name, #email, #submit{
         width: 350px;
         margin: 0 auto;
