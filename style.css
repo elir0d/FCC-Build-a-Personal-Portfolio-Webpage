@@ -489,9 +489,9 @@ span{
     }
     
     textarea{
-        margin: o auto;
-        min-width: 342px;
-        max-width: 342px;
+        margin: 0 auto;
+        min-width: 340px;
+        max-width: 340px;
     }
     footer{
         display: flex;
