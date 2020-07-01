@@ -475,10 +475,12 @@ span{
     }
 
     .nav-list li{
-        padding: 0;
+        font-size: 0.95rem;
+        padding: 0 4px;
     }
 
     .button-nav{
+        padding: 0.4rem;
         font-size: 0.8rem;
     }
 
