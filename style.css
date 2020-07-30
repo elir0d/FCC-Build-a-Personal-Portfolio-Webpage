@@ -67,10 +67,10 @@ html, body{
     padding: 5px;
     background-color:#1f1b1bea;
     text-transform: uppercase;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
 
-    z-index: 1;
 }
 
 .logo{
